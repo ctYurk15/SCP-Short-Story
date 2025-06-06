@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4407796569716145915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 269712161351188412, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166648131886193603, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_Name
+      value: LOD_Plant_Pot_01_ready Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.082
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.48800087
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.271
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70612884
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.037179857
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70612854
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.037179843
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.028
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629614354237110955, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1783084294971793001, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4939552027822390162}
+    - targetCorrespondingSourceObject: {fileID: 1783084294971793001, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4267200054812547984}
+  m_SourcePrefab: {fileID: 100100000, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+--- !u!1 &2708187404296167570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1783084294971793001, guid: 74973d4fe416af14889b45111e4e4608, type: 3}
+  m_PrefabInstance: {fileID: 4407796569716145915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4939552027822390162
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708187404296167570}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 524808015117887378, guid: 5ece7e85d6db9c54d89fd21b170b8a98, type: 3}
+--- !u!114 &4267200054812547984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708187404296167570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d6190914a006744b7b6c4309f70ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element_material: Bricks

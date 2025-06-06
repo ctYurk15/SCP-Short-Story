@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &128836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 422572}
+  - component: {fileID: 3333498}
+  - component: {fileID: 6502892}
+  - component: {fileID: 2341860}
+  - component: {fileID: 11440490}
+  m_Layer: 2
+  m_Name: M16Bullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &422572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4e-15, y: 1.0000002, z: 2.38}
+  m_LocalScale: {x: 0.030065566, y: 0.030065566, z: 0.030065566}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3333498
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128836}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &6502892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2341860
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128836}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &11440490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e3d39d01a5946499fa8b6b5dc1b00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistance: 100000
+  min_distance_from_wall: 0.01
+  max_distance_from_wall: 0.02
+  ignoreLayer:
+    serializedVersion: 2
+    m_Bits: 1792
+  impactForce: 2500
+  damage: 80
+  wooden_bullet_hole: {fileID: 179232, guid: a674ea4856277354787014ba657f9887, type: 3}
+  metal_bullet_hole: {fileID: 179232, guid: 2cf7aeff2778de94e919bcb251ba82cc, type: 3}
+  concrete_bullet_hole: {fileID: 179232, guid: 371a3576db350fc46bd2d5a6914c4800, type: 3}
+  road_bullet_hole: {fileID: 179232, guid: fa92e4099b43ebf48941b2fe1a9c7a08, type: 3}
+  sand_bullet_hole: {fileID: 179232, guid: ebcb93c94fb0c3247b8a3cd7805480c7, type: 3}
+  glass_bullet_hole: {fileID: 179232, guid: 6ff3fc055b76938478f48caec2211db8, type: 3}
+  bricks_bullet_hole: {fileID: 179232, guid: 84bf6fcae25027747b33af90deedab91, type: 3}
+  default_bullet_hole: {fileID: 179232, guid: af31e5530132ca74c85e14c3ff2451da, type: 3}
+  tags_to_avoid:
+  - NoBulletHoles
+  - GunShell
+  - Magazine
+  wooden_hit_effect: {fileID: 138412, guid: 6979ec85223a4674ebe4f9c4bfb3af97, type: 3}
+  metal_hit_effect: {fileID: 180772, guid: 70d6b3a0b260ec54388e783b860eb2da, type: 3}
+  concrete_hit_effect: {fileID: 108086, guid: 99f785655a77035408762d51c67003d1, type: 3}
+  road_hit_effect: {fileID: 108086, guid: 7af5bc5cbcf2a1d459acd8348f10c821, type: 3}
+  sand_hit_effect: {fileID: 186004, guid: 3b55bd9d8a9d91641a627ed47c1b0d0a, type: 3}
+  glass_hit_effect: {fileID: 168394, guid: 265abaecc3270214aa7a6f7db294979f, type: 3}
+  bricks_hit_effect: {fileID: 4832667834948867757, guid: a24b1f0d91079ee498c180126b440b34, type: 3}
+  default_hit_effect: {fileID: 4832667834948867757, guid: 2ed515577d697b64f8b31ba2c481fb8e, type: 3}
+  wooden_hit_sound_effect: {fileID: 14766342093884478, guid: 03ee1671a2688624aa2dfc9db4764091, type: 3}
+  metal_hit_sound_effect: {fileID: 14766342093884478, guid: 249bb729923881a41ac6e98f556f8bb3, type: 3}
+  concrete_hit_sound_effect: {fileID: 14766342093884478, guid: 7c48e7930407b9445b8ce0840006a6e9, type: 3}
+  road_hit_sound_effect: {fileID: 14766342093884478, guid: 7c48e7930407b9445b8ce0840006a6e9, type: 3}
+  sand_hit_sound_effect: {fileID: 14766342093884478, guid: ad2b8d5e7db3daa4caa09ecb7161aae9, type: 3}
+  glass_hit_sound_effect: {fileID: 14766342093884478, guid: f41f01d5369b82348bae2eb5b462a61e, type: 3}
+  bricks_hit_sound_effect: {fileID: 14766342093884478, guid: 7c48e7930407b9445b8ce0840006a6e9, type: 3}
+  default_hit_sound_effect: {fileID: 14766342093884478, guid: 7c48e7930407b9445b8ce0840006a6e9, type: 3}

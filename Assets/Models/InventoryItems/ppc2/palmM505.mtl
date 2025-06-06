@@ -1,0 +1,62 @@
+# 
+# Wavefront material file
+# Converted by 3D Exploration 1.7
+# XDimension Software, LLC
+# http://www.xdsoft.com/explorer/
+# 
+newmtl metal_red
+	 Ka 0.521569 0.521569 0.521569
+	 Kd 1 0.00784314 0.00784314
+	 Ks 0.898039 0.898039 0.898039
+	 illum 2
+	 Ns 168.897
+newmtl metal_blue
+	 Ka 0.521569 0.521569 0.521569
+	 Kd 0.0470588 0 1
+	 Ks 0.898039 0.898039 0.898039
+	 illum 2
+	 Ns 168.897
+newmtl floor
+	 Ka 0.588235 0.588235 0.588235
+	 Kd 0.588235 0.588235 0.588235
+	 Ks 0.898039 0.898039 0.898039
+	 illum 2
+	 Ns 4
+newmtl palm_black
+	 Ka 0.0196078 0.0196078 0.0196078
+	 Kd 0.0196078 0.0196078 0.0196078
+	 Ks 0.898039 0.898039 0.898039
+	 illum 2
+	 Ns 16
+newmtl metal
+	 Ka 0.521569 0.521569 0.521569
+	 Kd 0.588235 0.588235 0.588235
+	 Ks 0.898039 0.898039 0.898039
+	 illum 2
+	 Ns 168.897
+newmtl palm_front1
+	 Ka 0.588235 0.588235 0.588235
+	 Kd 0.588235 0.588235 0.588235
+	 Ks 0.898039 0.898039 0.898039
+	 illum 2
+	 Ns 168.897
+	 map_Kd PALMFRNT.jpg
+newmtl connect
+	 Ka 0.588235 0.588235 0.588235
+	 Kd 0.588235 0.588235 0.588235
+	 Ks 0.898039 0.898039 0.898039
+	 illum 2
+	 Ns 4
+	 map_Kd PALMCON.jpg
+newmtl ir
+	 Ka 0.988235 0 0
+	 Kd 0.239216 0.109804 0.109804
+	 Ks 1 0 0
+	 illum 2
+	 Ns 32
+newmtl led
+	 Ka 0.247059 0.909804 0.156863
+	 Kd 0.247059 0.909804 0.156863
+	 Ks 0.898039 0.898039 0.898039
+	 illum 2
+	 Ns 4
